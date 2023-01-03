@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>输入属性</title>
+</head>
+<body>
+  <!-- value 属性 初始值 -->
+  <label >value属性:</label>
+  <input type="text" name="firstname" value="出事值">
+  <input type="text" name="lastname" >
+  <br />
+  <!-- readonly属性 只读 -->
+  <label for="">readonly属性:</label>
+  <input type="text" name="firstname" value="出事值" readonly>
+  <input type="text" name="lastname" >
+  <br />
+  <!-- disabled 属性 禁用 -->
+  <label for="">disabled属性:</label>
+  <input type="text" name="dis_name" value="禁用" disabled>
+  <br />
+  <!-- size 属性 尺寸（以字符计） -->
+  <label for="">size属性:</label>
+  <input type="text" name="size_name" value="尺寸" size="40">
+  <br />
+  <!-- maxlength 属性 允许最长长度 -->
+  <label for="">maxlength属性:</label>
+  <input type="text" name="maxlength_name" maxlength="5">
+  <br />
+  <!-- autofocus 属性  当页面加载时，自动获得焦点 -->
+  <label for="">autofocus属性</label>
+  <input type="text" name="auto_name" autofocus>
+  <br />
+  
+
+  <br />
+  <hr />
+  <!-- form表单属性 -->
+  <!-- autocomplete 属性 自动填写用户之前的输入值-->
+  <form action="" autocomplete="on">
+    first name: <input type="text" name="fname"><br />
+    e-mail: <input type="email" name="email" autocomplete="off"><br />
+    <input type="submit">
+  </form>
+  <br />
+  <!-- novalidate 属性 不对表单数据进行验证 -->
+  <form action="" novalidate>
+    e: <input type="email" name="e_email"><br />
+    <input type="submit">
+  </form>
+  <br />
+</body>
+</html>

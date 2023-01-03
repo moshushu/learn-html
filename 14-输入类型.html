@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>输入类型</title>
+</head>
+<body>
+  <!-- text 类型 文本-->
+  <label >text类型:</label>
+  <input type="text" name="fl" value="text" >
+  <br />
+  <!-- password 类型 密文 -->
+  <label >password类型:</label>
+  <input type="password" value="password">
+  <br />
+  <!-- submit 类型 提交按钮-->
+  <label >submit类型:</label>
+  <input type="submit" value="Submit">
+  <br />
+  <!-- radio 类型 单选按钮-->
+  <label >radio类型:</label>
+  <input type="radio" name="sex" value="男" checked>男
+  <input type="radio" name="sex" value="女">女
+  <br />
+  <!-- checkbox 类型 复选框 -->
+  <label >checkbox类型:</label>
+  <input type="checkbox" name="box" value="bike">bike
+  <input type="checkbox" name="box" value="car">car
+  <input type="checkbox" name="box" value="benci">benci
+  <br />
+  <!-- button 类型 按钮 -->
+  <label >button类型:</label>
+  <input type="button" onclick="alert('点什么点，让你点你就点吗？')" value="点我">
+  <br />
+  <!-- h5新添加的输入类型 -->
+  <hr />
+  <label >h5新添加的输入类型:</label>
+  <br />
+  <!-- number 类型 对数字做限制-->
+  <label >number类型:</label>
+  <input type="number" name="minAndMax" min="1" max="5" >
+  <br />
+  <!-- date 类型 日期 -->
+  <label >date类型:</label>
+  <input type="date" name="date">
+  <br />
+  <!-- color 类型  颜色选择器 -->
+  <label >color类型:</label>
+  <input type="color">
+  <br />
+  <!-- range 类型 滑块控件-->
+  <label >range类型:</label>
+  <input type="range">
+  <br />
+  <!-- month 类型 年月 -->
+  <label >month类型:</label>
+  <input type="month" name="bdaymonth">
+  <br />
+  <!-- week 类型 周和年 -->
+  <label >week类型:</label>
+  <input type="week" name="week_year">
+  <br />
+  <!-- time 类型 时间（无时区） -->
+  <label >time类型:</label>
+  <input type="time" name="user_time">
+  <br>
+  <!-- datetime 类型 日期和时间（有时区） -->
+  <label >datetime类型:</label>
+  <input type="datetime" name="data_time">
+  <br />
+  <!-- datetime-local 类型 日期和时间（无时区）-->
+  <label >datetime-local类型:</label>
+  <input type="datetime-local" name="local">
+  <br />
+  <!-- email 类型  能够在被提交时自动对电子邮件地址进行验证 -->
+  <label >email类型:</label>
+  <input type="email" name="email">
+  <br />
+  <!-- search 类型 搜索-->
+  <label >search类型:</label>
+  <input type="search">
+  <br />
+  <!-- url 类型  在提交时能够自动验证 url 字段 -->
+  <label >url类型:</label>
+  <input type="url" name="homepage">
+  <br />
+</body>
+</html>
